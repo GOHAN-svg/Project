@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "api/submit.php",
+      "use": "@vercel/php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/submit.php",
+      "dest": "api/submit.php"
+    }
+  ]
+}
